@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "watch:theme": "cd themes/bearchit && npm run watch",
+    "serve": "hugo server -D --debug --poll 100ms --disableFastRender",
+    "start": "npm run watch:theme & npm run serve"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4",
+    "prettier-plugin-go-template": "^0.0.13"
+  }
+}

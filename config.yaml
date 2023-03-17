@@ -1,0 +1,11 @@
+baseURL: "https://bearchit.me/"
+
+theme: "bearchit"
+title: "bearchit.me"
+
+defaultContentLanguage: ko
+languageCode: ko-KR
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
