@@ -6,4 +6,8 @@
       It will not work if you mention the exact location like "./assets/style.css".-->
   {{ $style := resources.Get "style.css" }}
   <link rel="stylesheet" href="{{ $style.Permalink }}" />
+
+  {{- if hugo.IsProduction | or (eq site.Params.env "Production") }}
+    {{- template "_internal/google_analytics.html" . }}
+  {{- end -}}
 </head>

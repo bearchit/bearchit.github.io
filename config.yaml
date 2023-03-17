@@ -3,6 +3,8 @@ baseURL: "https://bearchit.me/"
 theme: "bearchit"
 title: "bearchit.me"
 
+googleAnalytics: G-N5ZYYLTZ40
+
 defaultContentLanguage: ko
 languageCode: ko-KR
 markup:
